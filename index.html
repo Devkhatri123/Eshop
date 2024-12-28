@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+        @media screen and (max-width: 640px) {
+            .swiper-slide {
+                flex-direction: column-reverse;
+            }
+            
+        }
+    </style>
+</head>
+
+<body class="container p-[13px] sm:p-[0] mr-auto ml-auto md:max-w-2xl lg:max-w-[62rem] xl:max-w-6xl">
+    <div>
+    <nav class="flex justify-between mt-4 ml-6 mr-6 mb-0">
+        <div class="flex gap-8 items-center">
+            <div>
+                <h1 class="text-red-600 sm:text-2xl font-semibold sm:tracking-1">ESHOP</h1>
+            </div>
+            <div class="hidden gap-4 lg:flex text-gray-500 font-semibold">
+                <a href="#" class="pr-4">Home</a>
+                <a href="#" class="pr-4">Shop</a>
+                <a href="#" class="pr-4">About</a>
+                <a href="#" class="pr-4">Blogs</a>
+                <a href="#">Quick Links <i class="ri-arrow-down-s-line"></i></a>
+            </div>
+        </div>
+        <div class="flex items-center justify-center text-gray-500 gap-4 font-semibold">
+            <div class="hidden sm:block"><i class="fa fa-search" aria-hidden="true"></i></div>
+            <div><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+            <div class="w-12"><img src="/images/light-mode-button-X4OXHFfW.png" alt=""></div>
+        </div>
+    </nav>
+    <div class="mr-4 ml-4 mt-4 lg:ml-auto lg:mr-auto swiper mySwiper" virtual="true">
+        <div class="swiper-wrapper">
+            <div class="slide1 swiper-slide pl-[20px] pr-[20px] sm:pl-[0] sm:pr-[0] flex rounded-[23px] flex-col-reverse items-center sm:grid grid-cols-2 sm:min-h-[600px] lg:max-h-[613px]"
+                style="background: rgb(209 213 219 / .8);">
+                <div class="text text-center sm:pl-9 sm:text-justify">
+                    <h4 class="font-bold text-xl mb-2 sm:text-4xl lg:mb-0">Beats Solo</h4>
+                    <h3 class="font-bold text-4xl mb-2 sm:text-4xl sm:mb-0 lg:text-6xl lg:leading-[5rem]">Wireless</h3>
+                    <h1 class="text-white font-bold text-[7vw] mb-2 lg:text-[8rem] lg:mt-0 lg:mb-7 lg:leading-[0.7]">HEADPHONES</h1>
+                    <button class="bg-red-600 text-white rounded-[30px] pr-8 pl-8 pt-2 pb-2 mb-3">Shop by
+                        category</button>
+                </div>
+                <div class="img flex justify-center sm:w-[100%] sm:justify-end z-10 sm:absolute">
+                    <img src="/images/headphone-M8ndZJ0u.png" alt=""
+                        class="w-[300px] h-[300px] object-contain md:w-[50%] md:h-[unset] lg:w-[32rem] lg:h-[unset] ">
+                </div>
+            </div>
+            <div class="slide1 swiper-slide flex rounded-[23px] flex-col-reverse items-center sm:grid grid-cols-2 sm:min-h-[600px] lg:max-h-[613px]"
+                style="background: rgb(209 213 219 / .8);">
+                <div class="text text-center sm:pl-9 sm:text-justify">
+                    <h4 class="font-bold text-xl mb-2 sm:text-4xl lg:mb-0">Beats Solo</h4>
+                    <h3 class="font-bold text-4xl mb-2 sm:text-4xl sm:mb-0 lg:text-6xl lg:leading-[5rem]">Wireless</h3>
+                    <h1 class="text-white font-bold text-[7vw] mb-2 lg:text-[8rem] lg:mt-0 lg:mb-7 lg:leading-[0.7]">VIRTUAL</h1>
+                    <button class="bg-red-600 text-white rounded-[30px] pr-8 pl-8 pt-2 pb-2 mb-3">Shop by
+                        category</button>
+                </div>
+                <div class="img flex justify-center sm:w-[100%] sm:justify-end z-10 sm:absolute" >
+                    <img src="/images/vr-4ibBMPK9.png" alt=""
+                        class="w-[300px] h-[300px] object-contain md:w-[50%] md:h-[unset] lg:w-[32rem] lg:h-[unset]">
+                </div>
+            </div>
+            <div class="slide1 swiper-slide flex rounded-[23px] flex-col-reverse items-center sm:grid grid-cols-2 sm:min-h-[600px] lg:max-h-[613px]"
+                style="background: rgb(209 213 219 / .8);">
+                <div class="text text-center sm:pl-9 sm:text-justify">
+                    <h4 class="font-bold text-xl mb-2 sm:text-4xl lg:mb-0">Beats Solo</h4>
+                    <h3 class="font-bold text-4xl mb-2 sm:text-4xl sm:mb-0 lg:text-6xl lg:leading-[5rem]">Branded</h3>
+                    <h1 class="text-white font-bold text-[7vw] mb-2 lg:text-[8rem] lg:mt-0 lg:mb-7 lg:leading-[0.7]">LAPTOPS</h1>
+                    <button class="bg-red-600 text-white rounded-[30px] pr-8 pl-8 pt-2 pb-2 mb-3">Shop by
+                        category</button>
+                </div>
+                <div class="img flex justify-center sm:w-[100%] sm:justify-end z-10 sm:absolute">
+                    <img src="/images/macbook-MZGIbM5F.png" alt=""
+                        class="w-[300px] h-[300px] object-contain md:w-[50%] md:h-[unset] lg:w-[32rem] lg:h-[unset]">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container break-all sm:break-keep grid-cols-1 md:grid-cols-2 mt-6 grid lg:grid-cols-4 gap-8 mb-5">
+        <div class="item1  pt-[48px] pb-[35px] pl-[26px] pr-[26px] h-[min-content] rounded-3xl flex items-center md:pt-[90px] md:pb-[63px] lg:pb-[2px] lg:pt-24 lg:mt-[-10px] sm:pt-[73px] sm:pb-[34px]"  style="background: rgb(40, 40, 40);">
+            <div class="left  w-[100%]">
+            <p class="text-[2rem] lg:text-[1.5rem]"  style="color: #5a5a5a;">Enjoy <br> <span class="text-white font-semibold">With</span></p>
+            <h4 class="text-[2.5rem] -mt-3 lg:text-[2rem] font-bold xl:text-[2rem]"  style="color: #5a5a5a;">Earphone</h4>
+            <button class="bg-red-600 text-white rounded-[30px] pr-8 pl-8 pt-2 pb-2 mb-3 lg:mt-5">Browse</button>
+        </div>
+        <div class="right relative"><img src="/images/earphone-gTSt01f7.png" alt="" class="w-[70%] md:w-[85%] lg:w-[47%]"></div>
+        </div>
+        <div class="item2 pt-[92px] pb-[24px] pl-[26px] pr-[26px] h-[min-content]  rounded-3xl flex items-center lg:pt-[86px] lg:pb-[28px] md:pt-[128px] md:pb-[51px] sm:pb-[40px]" style="background: rgb(253 198 46 / .9);">
+            <div class="left w-[100%]">
+            <p class="text-white text-xl">Enjoy <br> <span class="text-2xl font-bold">With</span></p>
+            <h4 class="text-[3rem] font-bold lg:mt-[-15px]" style="color: #fdde8a;">Gadget</h4>
+            <button class="bg-red-600 text-white rounded-[30px] pr-8 pl-8 pt-2 pb-2 mb-3">Browse</button>
+        </div>
+        <div class="right sm:absolute -translate-y-14"><img class="w-[100%] lg:w-[47%] md:w-[85%]" src="/images/watch-XuWGGfaq.png" alt=""/></div>
+        </div>
+        <div class="item3  sm:col-span-2 pt-[59px] pb-[17px] pl-[26px] pr-[26px] h-[min-content]  rounded-3xl flex items-center lg:pt-[22px] xl:pt-[60px]" style="background: rgb(244 44 55 / .9);">
+            <div class="left w-[100%]">
+            <p class="text-white text-xl">Enjoy <br> <span class="text-2xl font-bold">With</span></p>
+            <h4 class="font-bold lg:mt-[-20px]" style="color: #f7858c;font-size: 3.5rem;">Laptop</h4>
+            <button class="bg-red-600 text-white rounded-[30px] pr-8 pl-8 pt-2 pb-2 mb-3">Browse</button>
+        </div>
+        <div class="relative sm:relative flex justify-end"><img class="w-[70%] lg:w-[100%] xl:w-[62%]" src="/images/macbook-MZGIbM5F.png" alt=""></div>
+        </div>
+    </div>
+    <div class="container break-all sm:break-keep  grid-cols-1 md:grid-cols-2 mt-6 grid lg:grid-cols-4 gap-8 mb-5">
+        <div class="item1 justify-between sm:col-span-2  pt-[48px] pb-[35px] pl-[26px] pr-[26px] h-[min-content] rounded-3xl flex items-center md:pt-[90px] md:pb-[63px] lg:pb-[2px] lg:pt-24 lg:mt-[-10px] sm:pt-[73px] sm:pb-[34px]"  style="background: rgb(176, 180, 189);">
+            <div class="left  w-[100%]">
+            <p class="text-[2rem] lg:text-[1.5rem]"  style="color: #5a5a5a;">Enjoy <br> <span class="text-white font-semibold">With</span></p>
+            <h4 class="text-[2.5rem] lg:text-[2rem] font-bold xl:text-[3rem] -mt-4"  style="color: #5a5a5a;">Earphone</h4>
+            <button class="bg-red-600 text-white rounded-[30px] pr-8 pl-8 pt-2 pb-2 mb-3 lg:mt-5">Browse</button>
+        </div>
+        <div class="right relative sm:relative flex justify-end"><img src="/images/gaming--Uk6eZy1.png" alt="" class="w-[70%] md:w-[85%] lg:w-[72%]"></div>
+        </div>
+        <div class="item2 pt-[92px] pb-[24px] pl-[26px] pr-[26px] h-[min-content]  rounded-3xl flex items-center lg:pt-[84px] xl:pt-[109px] lg:pb-[28px] md:pt-[128px] md:pb-[51px] sm:pb-[40px]" style="background: rgb(43, 186, 104);">
+            <div class="left z-50  w-[100%]">
+            <p class="text-white text-xl">Enjoy <br> <span class="text-2xl font-bold">With</span></p>
+            <h4 class="text-[3rem] font-bold lg:mt-[-15px] -mt-4" style="color: #54c885;">Gadget</h4>
+            <button class="bg-red-600 text-white rounded-[30px] pr-8 pl-8 pt-2 pb-2 mb-3">Browse</button>
+        </div>
+        <div class="right relative"><img class="w-[70%] lg:w-[79%] md:w-[100%]" src="/images/vr-4ibBMPK9.png" alt=""/></div>
+        </div>
+        <div class="item3 pt-[59px] pb-[92px]  pl-[26px] pr-[26px] h-[min-content]  rounded-3xl flex items-center lg:pt-[22px] lg:pb-[76px] xl:pb-[70px] xl:pt-[60px] md:pb-[115px]" style="background: rgb(19, 115, 236);">
+            <div class="left">
+            <p class="text-white text-xl">Enjoy <br> <span class="text-2xl font-bold">With</span></p>
+            <h4 class="font-bold lg:mt-[-20px] -mt-4" style="color: #76abf3;font-size: 3.5rem;">Laptop</h4>
+            <button class="bg-red-600 text-white rounded-[30px] pr-8 pl-8 pt-2 pb-2 mb-3">Browse</button>
+        </div>
+        <div class="relative translate-x-[80px] translate-y-[90px]  sm:-translate-x-14 sm:translate-y-[84px] lg:translate-y-[91px] flex sm:justify-end md:translate-y-[127px]"><img class="w-[70%] lg:w-[56%] xl:w-[62%]" src="/images/speaker-X9yW-39F.png" alt=""></div>
+        </div>
+    </div>
+</div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js" integrity="sha512-hRhHH3+D9xVKPpodEiYzHWIG8CWbCjp7LCdZ00K3/6xsdC3iT0OlPJLIwxSMEl07gya1Ae8iAqXjMMLpzqqh0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>
+       document.addEventListener("DOMContentLoaded", function () {
+    const mySwiper = new Swiper(".swiper", {
+        slideperView: 1,
+        spaceBetween: 10,
+        loop: true,
+        centeredSlides: true,
+        // autoplay: {
+        //     delay: 2500,
+        //     disableOnInteraction: true
+        // },
+    });
+});
+// window.addEventListener("DOMContentLoaded",(event)=>{
+//     window.addEventListener("resize",()=>{
+//         if(window.innerWidth <= 640){
+//             console.log(window.innerWidth);
+//             document.body.style.width = `${window.innerWidth}px`;
+//         }
+//     })
+//     document.body.style.width = `${window.innerWidth}px`;
+// })
+ </script>
+</body>
+
+</html>
